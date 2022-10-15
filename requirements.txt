@@ -1,1 +1,1 @@
-pydatafront==0.0.4
+pydatafront==0.1.0
