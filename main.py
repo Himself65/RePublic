@@ -19,7 +19,7 @@ def triple_plus(x: int):  # this function should be hosted at redstone.textea.io
 def file_read() -> str:
     """Simply read a file in this repo and return the first line as a string
     """
-        with open('README.md', 'r') as fp: 
-            head = fp.readline() 
+    with open('README.md', 'r') as fp:
+        head = fp.readline()
 
     return head
