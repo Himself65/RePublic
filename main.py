@@ -13,7 +13,9 @@ def triple_plus(x: int):  # this function should be hosted at redstone.textea.io
     return triple(x) + 1
 
 
-@textea_export()
+@textea_export(
+    "/file_read"
+)
 def file_read() -> str:
     """Simply read a file in this repo and return the first line as a string
     """
