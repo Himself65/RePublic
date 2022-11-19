@@ -1,1 +1,1 @@
-pydatafront==0.1.0
+funix==0.2.0
